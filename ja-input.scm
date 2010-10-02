@@ -46,7 +46,7 @@
   (let1 cstr
       (ces-convert
        (values-ref
-        (http-get *google* (string-append *query* str) :accept-language "ja") 2)
+        (http-get *google* (string-append *query* str)) 2)
        "*jp" "utf-8")
     (set! cstr (string-tr cstr "[" "("))
     (set! cstr (string-tr cstr "]" ")"))
