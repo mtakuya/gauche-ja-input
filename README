@@ -1,0 +1,16 @@
+NAME
+    This is Gauche module ja-input.
+    Google CGI API for Japanese Input Module.
+
+VERSION
+    0.0.1
+ 
+INSTALLATION
+    1. ja-input.scm add copy to *load-path* directory.
+ 
+SYNOPSIS
+    - http://www.google.com/intl/ja/ime/cgiapi.html
+
+AUTHOR
+    Takuya Mannami <mtakuya@users.sourceforge.jp>
+
